@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // Cloudflare Account ID
-const ACCOUNT_ID = "YOUR_ACCOUNT_ID";  // <-- اپنا account ID یہاں لگائیں
+const ACCOUNT_ID = "e02e7127b877d34814cc8c788494aa49";  // <-- اپنا account ID یہاں لگائیں
 
 // API Token (Render.com Environment Variable)
 const CF_API_TOKEN = process.env.CF_API_TOKEN;
